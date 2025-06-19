@@ -1,0 +1,68 @@
+.full-container {
+  background-image: url("/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.Register-form-container {
+  border: 5px solid black;
+  border-radius: 1rem;
+  width: 20%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: white;
+  gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .Register-form-container {
+    width: 90%;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    height: 100vh;
+  }
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.register-form input {
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 2px solid red;
+}
+.register-form button {
+  border-radius: 0.5rem;
+  border: 2px solid red;
+  padding: 0.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.register-form button:hover {
+  transform: scale(1.1);
+  background-color: green;
+  color: white;
+}
+.sign-in-option {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#signinlink {
+  text-decoration: none;
+}
+#already-have-account {
+  text-align: center;
+}
+#register-link {
+  text-decoration: none;
+  margin: 0.5rem;
+}

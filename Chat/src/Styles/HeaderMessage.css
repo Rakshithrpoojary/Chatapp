@@ -1,0 +1,17 @@
+.message-header-container {
+  border: 1px solid black;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+.message-header-container button {
+  background-color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.message-header-container p {
+  font-weight: 700;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,50 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-right: 2px solid black;
+  width: 100%;
+  height: 100%;
+  color: white;
+  /* background: linear-gradient(pink, blue); */
+  background-color: #177fd9;
+}
+.users {
+  border: 1px solid rgb(211, 79, 79);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* height: 500px; */
+  height: 100%;
+  background-color: azure;
+  overflow: scroll;
+}
+#btn-one {
+  margin-right: auto;
+}
+.users button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: azure;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  cursor: pointer;
+}
+#btn-parent-one {
+  display: flex;
+  justify-content: space-between;
+}
+#btn-parent-two {
+  margin-right: auto;
+}
+#online {
+  color: green;
+  font-weight: 600;
+}
+#username {
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.type-container {
+  border: 1px solid black;
+  display: flex;
+  height: auto;
+  background-color: white;
+}
+.type-container textarea {
+  resize: none;
+  width: 90%;
+  padding: 0.5rem 0 0 0.5rem;
+  height: auto;
+}
+.type-container button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: black;
+  font-weight: 700;
+  border-radius: 1rem;
+  background-color: skyblue;
+  cursor: pointer;
+}
